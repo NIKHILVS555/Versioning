@@ -8,7 +8,7 @@ int main(int argc,char * argv[])
 	if(argc>1)
 	if(strcmp(argv[1],"-v")==0)
 	{
-		cout<<"Version : "<<"1.0.0";
+		cout<<"Version : "<<VERSION;
 		return 1;
 	}
 	cout<<"Hello World";
